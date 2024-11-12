@@ -11,7 +11,7 @@
     "jnm-side-menu:build": "ng build jnm-side-menu",
     "jnm-side-menu:test": "ng test jnm-side-menu --no-watch --no-progress --browsers=ChromeHeadless",
     "jnm-side-menu:lint": "ng lint jnm-side-menu",
-    "jnm-side-menu:publish": "npm run jnm-side-menu:test && npm run jnm-side-menu:lint && npm run jnm-side-menu:build && npm publish dist/jnm-side-menu"
+    "jnm-side-menu:publish": "npm run jnm-side-menu:test && npm run jnm-side-menu:lint && npm run jnm-side-menu:build && npm publish dist/jnm-side-menu/"
   },
   "private": true,
   "dependencies": {
