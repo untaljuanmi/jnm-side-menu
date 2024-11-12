@@ -1,14 +1,15 @@
 {
   "name": "jnm-side-menu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
-    "directory": "https://github.com/untaljuanmi/jnm-side-menu"
+    "url": "https://github.com/untaljuanmi/jnm-side-menu"
   },
   "author": {
     "name": "Juanmi González",
     "url": "https://juanmigonzalez.dev"
   },
+  "license": "MIT",
   "keywords": [
     "do-not-use"
   ],
