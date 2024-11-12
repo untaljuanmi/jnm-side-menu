@@ -4,8 +4,8 @@
     <a class="flex items-center gap-4 py-6 px-8" href="#/">
       <h6
         class="block antialiased tracking-normal font-sans text-2xl font-bold leading-relaxed text-white">
-        <span [classList]="titleColor()">APX</span>
-        <span class="font-thin ms-1">Corp</span>
+        <span [classList]="titleColor()">{{ title() }}</span>
+        <span class="font-thin ms-1">{{ subtitle() }}</span>
       </h6>
     </a>
     <button

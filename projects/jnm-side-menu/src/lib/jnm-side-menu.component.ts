@@ -16,7 +16,9 @@ export enum TitleColorEnum {
 })
 export class JnmSideMenuComponent {
   public isAuthenticated: InputSignal<boolean> = input<boolean>(false);
+  public title: InputSignal<string> = input<string>('APX');
   public titleColor: InputSignal<TitleColorEnum> = input<TitleColorEnum>(TitleColorEnum.Blue);
+  public subtitle: InputSignal<string> = input<string>('Corp');
 
   public onSignIn: OutputEmitterRef<void> = output<void>();
   public onSignOut: OutputEmitterRef<void> = output<void>();
